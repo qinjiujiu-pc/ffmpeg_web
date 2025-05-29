@@ -137,12 +137,42 @@ yarn preview
 
 ## 开发计划
 
-- 添加批量处理功能
-- 增加更多视频滤镜效果
-- 支持视频拼接功能
-- 字幕提取与添加
-- 视频压缩优化算法
-- 移动设备适配优化
+- **视频裁剪模块增强**：
+  - 批量处理功能：同时处理多个视频文件
+  - 多段截取功能：在单个视频中标记多个片段进行提取
+  - 性能优化：提高大型视频文件的处理速度
+
+- **音频提取模块增强**：
+  - 增加更多音频转换格式（FLAC, OGG, OPUS等）
+  - 支持更多音频质量参数设置（采样率、声道数等）
+  - 支持音量调节、噪声降低、声道选择
+  - 支持波形可视化显示
+  - 支持语音转字幕功能
+
+- **关键帧提取模块增强**：
+  - 优化关键帧智能筛选算法，去除相似帧
+  - 支持关键帧图像质量控制（分辨率、压缩率等）
+  - 支持关键帧人脸检测和标注
+
+- **格式转换模块增强**：
+  - 支持高级编码选项，更多编码格式可选
+  - 视频增强处理：集成降噪、锐化等画质优化功能
+
+- **OCR识别模块**：
+  - 集成Tesseract.js实现视频中的文字识别
+  - 支持多语言文本识别
+  - 导出识别结果为文本文件
+
+- **视频水印功能**：
+  - 支持添加图片水印
+  - 支持添加文字水印
+  - 自定义水印位置、透明度和动画效果
+
+- **其他计划功能**：
+  - 支持视频拼接功能
+  - 字幕提取与添加
+  - 视频压缩优化算法
+  - 移动设备适配优化
 
 ## 注意事项
 
@@ -300,12 +330,42 @@ The project can be deployed to any static website hosting service such as GitHub
 
 ## Development Plan
 
-- Add batch processing functionality
-- Add more video filter effects
-- Support for video joining functionality
-- Subtitle extraction and addition
-- Video compression optimization algorithms
-- Mobile device adaptation optimization
+- **Video Trimming Module Enhancements**:
+  - Batch processing: Process multiple video files simultaneously
+  - Multi-segment extraction: Mark and extract multiple segments from a single video
+  - Performance optimization: Improve processing speed for large video files
+
+- **Audio Extraction Module Enhancements**:
+  - Add more audio conversion formats (FLAC, OGG, OPUS, etc.)
+  - Support more audio quality parameter settings (sample rate, channels, etc.)
+  - Support volume adjustment, noise reduction, channel selection
+  - Support waveform visualization
+  - Support speech-to-text subtitle generation
+
+- **Keyframe Extraction Module Enhancements**:
+  - Optimize intelligent keyframe filtering algorithm to remove similar frames
+  - Support keyframe image quality control (resolution, compression rate, etc.)
+  - Support face detection and annotation in keyframes
+
+- **Format Conversion Module Enhancements**:
+  - Support advanced encoding options with more codec choices
+  - Video enhancement processing: Integrate noise reduction, sharpening, and other quality optimization features
+
+- **OCR Recognition Module**:
+  - Integrate Tesseract.js for text recognition in videos
+  - Support multi-language text recognition
+  - Export recognition results as text files
+
+- **Video Watermark Functionality**:
+  - Support adding image watermarks
+  - Support adding text watermarks
+  - Customize watermark position, transparency, and animation effects
+
+- **Other Planned Features**:
+  - Support for video joining functionality
+  - Subtitle extraction and addition
+  - Video compression optimization algorithms
+  - Mobile device adaptation optimization
 
 ## Notes
 
